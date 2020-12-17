@@ -5,10 +5,10 @@ const Connection = ({ connect, disconnect, connectBtn }) => {
   const [form] = Form.useForm();
   const record = {
     clientId: `mqttjs_ + ${Math.random().toString(16).substr(2, 8)}`,
-    host: 'oneseventyfour.com',
+    host: 'xxxx',
     port: 15675,
-    username: 'heartpublisher',
-    password: 'pass0101word'
+    username: 'xxxx',
+    password: 'xxxx'
     //host: 'broker.emqx.io',
     //port: 8083
   };
