@@ -1,3 +1,9 @@
+# Introduction
+
+In order to remotely control Alex’s amazing robotic arm, we need to communicate via a network protocol called MQTT. We will interact through a web service so-called "MQTT broker". The robotic arm will subscribe to this broker and wait for data to come in. Users can use a webpage to input the control data and publish them to the broker so that the robotic arm can act accordingly.
+
+So I just build this webpage using React, then establish an MQTT connection to the broker via WebSocket, and then collect the input and send them to the broker.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -38,6 +44,7 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
 
 ## Learn More
 
